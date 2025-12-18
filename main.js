@@ -11,7 +11,7 @@ thumbnails1.forEach(thumb => {
         const active = document.querySelector('.active')
         active.classList.remove('active')
         thumb.classList.add('active')
-        main_img.src  = "Video/Victoria’s Secret.mp4"
+        main_img.src  = "./Victoria’s Secret.mp4"
     })
 })
 
@@ -20,7 +20,7 @@ thumbnails2.forEach(thumb => {
         const active = document.querySelector('.active')
         active.classList.remove('active')
         thumb.classList.add('active')
-        main_img.src = "Video/lorealvid.mp4"
+        main_img.src = "./lorealvid.mp4"
     })
 })
 
@@ -29,7 +29,7 @@ thumbnails3.forEach(thumb => {
         const active = document.querySelector('.active')
         active.classList.remove('active')
         thumb.classList.add('active')
-        main_img.src = "Video/Mac.mp4";
+        main_img.src = "./Mac.mp4";
     })
 })
 
@@ -38,6 +38,7 @@ thumbnails4.forEach(thumb => {
         const active = document.querySelector('.active')
         active.classList.remove('active')
         thumb.classList.add('active')
-        main_img.src = "Video/maybellinevid.mp4"
+        main_img.src = "./maybellinevid.mp4"
     })
+
 })
