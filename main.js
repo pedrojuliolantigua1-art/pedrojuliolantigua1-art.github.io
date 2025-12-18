@@ -11,7 +11,7 @@ thumbnails1.forEach(thumb => {
         const active = document.querySelector('.active')
         active.classList.remove('active')
         thumb.classList.add('active')
-        main_img.src  = "./victoria-secret.mp4"
+        main_img.src  = "./Opal Glam.mp4"
     })
 })
 
@@ -42,6 +42,7 @@ thumbnails4.forEach(thumb => {
     })
 
 })
+
 
 
 
